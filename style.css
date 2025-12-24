@@ -3,9 +3,92 @@ body{
     font-size: 20px;
 }
 
-nav-page {
-    text-decoration: none;
-    list-style: none;
-    float: right;
+.banner {
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(182, 193, 198);
+    margin-bottom: 30px;
+    color: rgb(37, 28, 28);
+}
 
+.banner > strong {
+    color: rgb(37, 135, 180);
+}
+
+header {
+    display: flex;
+    flex-flow: row;
+    column-gap: 600px;
+}
+
+.nav-page {
+    display: flex;
+    flex-flow: row;
+    column-gap: 60px;
+}
+
+li, a {
+    list-style: none;
+    text-decoration-line: none; 
+    color: black;
+}
+
+.main-mid {
+    display: flex;
+    flex: content;
+    column-gap: 50px;
+    justify-content:space-between
+}
+
+
+.left-proj {
+    width: 25%;
+    padding-left: 6px;
+    color: chocolate;
+}
+
+.proj-list > li {
+    list-style-type: decimal;
+}
+
+.mid-expe {
+    width: 25%;
+    padding-left: 6px;
+}
+
+
+.right-edu {
+    width: 25%;
+    padding-left: 6px;
+}
+
+.course-li li {
+    color: chocolate;
+    list-style: circle;
+}   
+
+.testi-revi {
+    border-style: solid;
+    border-width: 2px;
+    border-color: aliceblue;
+    border-radius: 15px;
+    background-color: rgb(161, 163, 163);
+    width: 45%;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+
+.cards {
+    padding: 40px;
+    text-align: center;
+    display: flex;
+    flex-flow: row;
+}
+
+.foot {
+    padding: 40px;
+    text-align: center;
+    background-color: rgb(157, 193, 208);
+    border: solid 6px none;
+    margin-top: 30px;
 }
