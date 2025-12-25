@@ -25,7 +25,14 @@ header {
     display: flex;
     flex-flow: row;
     column-gap: 60px;
+    font-weight: 600;
 }
+
+.nav-page > li > a:hover {
+    color: white;
+    background-color: chocolate;
+    text-decoration-color: black;
+} 
 
 li, a {
     list-style: none;
@@ -56,6 +63,13 @@ li, a {
     padding-left: 6px;
 }
 
+.mid-expe > a {
+    color: rgb(12, 37, 181);
+}
+
+.mid-expe > a:hover {
+    color: chocolate;
+}
 
 .right-edu {
     width: 25%;
@@ -92,3 +106,5 @@ li, a {
     border: solid 6px none;
     margin-top: 30px;
 }
+
+
